@@ -38,6 +38,9 @@ public class Main {
         int indeks = input.nextInt();
         hewan.remove(indeks);
 
+        System.out.print("Menghapus indeks ke-0...");
+        hewan.remove(0);
+
         System.out.println("\n");
         System.out.println(hewan);
         System.out.println("\nHewan pada indeks ke-0: " + hewan.get(0));
