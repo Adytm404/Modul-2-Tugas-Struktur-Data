@@ -66,7 +66,12 @@ public class Main {
         int indeksAwal = input.nextInt();
         System.out.print("Masukkan indeks akhir yang ingin dihapus: ");
         int indeksAkhir = input.nextInt();
-        hewan.subList(indeksAwal+1, indeksAkhir-1).clear();
+
+        for (int i = 0; i <= indeksAkhir-indeksAwal; i++){
+            hewan.remove(indeksAwal+1);
+            i++;
+        }
+
         System.out.println("\n" + hewan);
 
 
