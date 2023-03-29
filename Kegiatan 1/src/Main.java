@@ -8,11 +8,10 @@ public class Main {
         hewan.add("Bebek");
         hewan.add("Cicak");
         hewan.add("Domba");
-        hewan.add("Bebek");
+        hewan.add("Elang");
         hewan.add("Gajah");
         hewan.add("Badak");
-        hewan.add("Elang");
-        hewan.add("Ular");
+        hewan.add("Bebek");
 
         int jumlahBebek = 0;
         ArrayList<Integer> indexBebek = new ArrayList<>();
@@ -49,10 +48,6 @@ public class Main {
         System.out.print("\nMasukkan nilai baru untuk indeks ke-0: ");
         String nilai0 = input.next();
         hewan.set(0, nilai0);
-
-        System.out.print("Masukkan nilai baru untuk indeks ke-2: ");
-        String nilai2 = input.next();
-        hewan.set(2, nilai2);
 
         System.out.println("\n" + hewan);
 
